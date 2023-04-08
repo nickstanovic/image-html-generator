@@ -10,9 +10,9 @@ This Python script generates HTML `<img>` tags for all the .webp image files in 
 
 3. Open a terminal or command prompt and navigate to the cloned repository directory.
 
-4. Modify the `directory` variable at the top of the `generate_html.py` file to specify the directory where your .webp images are located.
+4. Modify the `directory` variable at the top of the `webp_image_html_generator.py` file to specify the directory where your .webp images are located.
 
-5. Run the `generate_html.py` script using Python by typing `python generate_html.py` in the terminal/command prompt.
+5. Run the `webp_image_html_generator.py` script using Python by typing `python webp_image_html_generator.py` in the terminal/command prompt.
 
 6. The script will output the HTML <img> tags to the console. For example, if the file `Green-Mythic-ElephantEars-Alocasia-Baginda.webp` is in your directory, the script generates `<img src="Green-Mythic-ElephantEars-Alocasia-Baginda.webp" alt="Green Mythic ElephantEars Alocasia Baginda" title="Green Mythic ElephantEars Alocasia Baginda">` after the script is run. The same will happen to all .webp files in the directory. You can copy and paste these tags into your website or HTML document.
 
